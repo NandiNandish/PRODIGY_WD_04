@@ -3,88 +3,100 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nandeesha | Web Developer</title>
-
+<title>E B Nandeesha | Portfolio</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#0f172a;color:white;line-height:1.6}
+header{padding:80px 10%;text-align:center}
+h1{font-size:3rem}
+.highlight{color:#38bdf8}
+section{padding:60px 10%}
+.card{background:#1e293b;padding:20px;border-radius:12px;margin:15px 0}
+.skills span{display:inline-block;background:#334155;padding:8px 14px;margin:5px;border-radius:20px}
+a{color:#38bdf8;text-decoration:none}
+footer{text-align:center;padding:30px}
+</style>
 </head>
-<link href="style.css" rel="stylesheet">
 <body>
 
 <header>
-    <h2>E B Nandeesha</h2>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-    </nav>
+<h1>E B <span class="highlight">Nandeesha</span></h1>
+<h2>Junior Software Developer</h2>
+<p>Building scalable web applications, machine learning solutions, and modern software systems.</p>
 </header>
 
-<section class="hero" id="home">
-    <div class="hero-text">
-        <h1>Hello, I'm <span>Nandeesha</span></h1>
-        <p>Passionate Full Stack Web Developer building responsive and interactive web applications using HTML, CSS, JavaScript and modern frameworks.</p>
-        <button class="btn" onclick="scrollToSection('projects')">View My Work</button>
-    </div>
-    <img src="https://via.placeholder.com/300" alt="My profile">
+<section>
+<h2>About Me</h2>
+<p>
+Computer Science Engineering student and Junior Software Developer with experience in Full Stack Development,
+Machine Learning, and Sensor Interface projects. Passionate about building innovative software solutions.
+</p>
 </section>
 
-<section id="about">
-    <div class="about">
-        <h2>About Me</h2>
-        <br>
-        <p>
-        I'm a dedicated web developer with strong foundations in HTML, CSS, and JavaScript.
-        Currently expanding my skills into full-stack development. I love solving problems,
-        building creative user interfaces, and continuously improving my coding skills.
-        </p>
-        <br>
-        <p>
-        🎓 Education: Computer Science Student  
-        💼 Experience: Frontend Projects, Responsive Websites, Interactive UI Design  
-        🚀 Goal: Become a Professional Full Stack Developer
-        </p>
-    </div>
+<section>
+<h2>Skills</h2>
+<div class="skills">
+<span>Python</span><span>JavaScript</span><span>TypeScript</span><span>SQL</span><span>PHP</span>
+<span>React.js</span><span>Tailwind CSS</span><span>Node.js</span><span>Express.js</span>
+<span>PostgreSQL</span><span>MySQL</span><span>Git</span><span>GitHub</span>
+<span>Docker</span><span>REST APIs</span>
+</div>
 </section>
 
-<section id="skills">
-    <h2>My Skills</h2>
-    <div class="skills-container">
-        <div class="skill">HTML</div>
-        <div class="skill">CSS</div>
-        <div class="skill">JavaScript</div>
-        <div class="skill">Responsive Design</div>
-        <div class="skill">Git & GitHub</div>
-        <div class="skill">Node.js (Learning)</div>
-    </div>
+<section>
+<h2>Projects</h2>
+
+<div class="card">
+<h3>Secure Vault</h3>
+<p>Secure file management application built using TypeScript, Supabase and Tailwind CSS with authentication and cloud storage.</p>
+</div>
+
+<div class="card">
+<h3>Digital Cafe Administration System</h3>
+<p>Automated billing, order processing and inventory management using React.js and PostgreSQL.</p>
+</div>
+
+<div class="card">
+<h3>Customer Churn Prediction</h3>
+<p>Built Logistic Regression from scratch using Python and NumPy achieving over 85% prediction accuracy.</p>
+</div>
+
 </section>
 
-<section id="projects">
-    <h2>Projects</h2>
-    <div class="projects">
-        <div class="project-card">
-            <h3>posture awareness</h3>
-            <p>Interactive web-page to help users maintain good posture.</p>
-        </div>
-        <div class="project-card">
-            <h3>simple calculator</h3>
-            <p>Basic calculator application built with HTML, CSS, and JavaScript.</p>
-        </div>
-        <div class="project-card">
-            <h3>Personal Portfolio</h3>
-            <p>Modern responsive portfolio website showcasing skills and projects.</p>
-        </div>
-    </div>
+<section>
+<h2>Experience</h2>
+<div class="card">
+<h3>VV Technologies - Intern</h3>
+<p>Sep 2022 - Jul 2023</p>
+<ul>
+<li>Developed web application modules.</li>
+<li>Worked on sensor interfacing projects.</li>
+<li>Participated in testing and deployment.</li>
+</ul>
+</div>
+</section>
+
+<section>
+<h2>Education</h2>
+<div class="card">
+<p><b>B.E. Computer Science & Engineering</b><br>Sir M Visvesvaraya Institute of Technology</p>
+</div>
+<div class="card">
+<p><b>Diploma in Computer Science</b><br>Government Polytechnic Chitradurga (GPA 9.0)</p>
+</div>
+</section>
+
+<section>
+<h2>Contact</h2>
+<p>Email: nandinandisha22@gmail.com</p>
+<p>Phone: 7259795114</p>
+<p>GitHub: <a href="https://github.com/NandiNandish">github.com/NandiNandish</a></p>
+<p>LinkedIn: <a href="https://linkedin.com/in/e-b-nandeesha-36435831b">LinkedIn Profile</a></p>
 </section>
 
 <footer>
-    <p>© 2026 Nandeesha | Web Developer</p>
+<p>© 2026 E B Nandeesha</p>
 </footer>
-
-<script>
-function scrollToSection(id){
-    document.getElementById(id).scrollIntoView({behavior:"smooth"});
-}
-</script>
 
 </body>
 </html>
